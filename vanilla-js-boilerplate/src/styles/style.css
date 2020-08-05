@@ -1,0 +1,72 @@
+body {
+  font-size: x-large;
+}
+
+.box {
+  background-color: #efe9e399;
+  width: 50vw;
+  height: auto;
+  margin-top: 10vh;
+  text-align: center;
+  padding: 3%;
+  margin-top: 0;
+  margin-left: 0;
+  font-weight: 700;
+}
+.button1 {
+  background-color: #fb9535;
+}
+.slider {
+  margin-top: 8vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  animation: slide 40s infinite;
+  background-attachment: fixed;
+}
+.load {
+  animation: slide 2s;
+}
+.service-box {
+  background-color: #efe9e399;
+  width: 60vw;
+  margin-left: 20%;
+  padding: 3%;
+}
+textarea {
+  width: 40vw;
+  height: 20vh;
+}
+
+@keyframes slide {
+  0% {
+    background-image: url(image/img3.jpg);
+  }
+  20% {
+    background-image: url(image/img3.jpg);
+  }
+  20.1% {
+    background-image: url(image/img4.jpg);
+  }
+  40% {
+    background-image: url(image/img4.jpg);
+  }
+  40.1% {
+    background-image: url(image/img5.jpg);
+  }
+  60% {
+    background-image: url(image/img5.jpg);
+  }
+  60.1% {
+    background-image: url(image/img6.jpg);
+  }
+  80% {
+    background-image: url(image/img6.jpg);
+  }
+  80.1% {
+    background-image: url(image/img7.jpg);
+  }
+  100% {
+    background-image: url(image/img7.jpg);
+  }
+}
